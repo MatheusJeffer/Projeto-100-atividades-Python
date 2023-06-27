@@ -1,7 +1,9 @@
 def invert(txt):
-   string_invertida = str(txt)
-   return string_invertida[::-1]
+   if txt  not in 'Nada':
+     return txt[::-1]
+   else:
+      return 'Nada digitado.'
 
-Str = str(input('Digite alguma palavra: '))
+Str = str(input('Digite alguma palavra: ')) or 'Nada'
 
 print(invert(Str))

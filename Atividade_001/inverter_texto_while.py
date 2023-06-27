@@ -1,5 +1,4 @@
 def invert(txt):
-
   palavra = txt
   quant = len(palavra)
 
@@ -7,7 +6,6 @@ def invert(txt):
     quant -= 1
     print(palavra[quant], end='')  
         
-  
 
 texto = str(input('Digite algo: '))
 
