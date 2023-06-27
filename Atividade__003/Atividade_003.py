@@ -11,8 +11,6 @@ def letras(lista):
     print(f'As palavras digitadas pelo úsuario que começam com a letra "A" e tem mais de 3 letras foram: {palavras_selecionadas}')
 
 
-
-
 while True:
     palavras = str(input('Digite qualquer palavra: ')).upper().lstrip().rstrip()
     
