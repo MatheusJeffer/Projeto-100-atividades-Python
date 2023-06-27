@@ -8,6 +8,7 @@ def invert(txt):
     print(palavra[quant], end='')  
         
   
+
 texto = str(input('Digite algo: '))
 
 invert(texto)
