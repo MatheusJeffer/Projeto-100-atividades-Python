@@ -1,14 +1,14 @@
 palavras_digitadas = []
-Palavras_selecionadas = []
+palavras_selecionadas = []
     
 
 def letras(lista):
 
     for palavras in lista:
         if (len(palavras) > 3) and (palavras[0] in ('A')):
-            Palavras_selecionadas.append(palavras)
+            palavras_selecionadas.append(palavras)
 
-    print(f'As palavras digitadas pelo úsuario que começam com a letra "A" e tem mais de 3 letras foram: {Palavras_selecionadas}')
+    print(f'As palavras digitadas pelo úsuario que começam com a letra "A" e tem mais de 3 letras foram: {palavras_selecionadas}')
 
 
 
