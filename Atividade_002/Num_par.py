@@ -1,9 +1,9 @@
 numeros_digitados = []
-
+numeros_pares = []
 
 
 def num_par(numeros):
-    numeros_pares = []
+    
 
     for numero in numeros:
         if numero %2 == 0:
@@ -16,10 +16,10 @@ def num_par(numeros):
 
 continuar = ''
 
-while continuar in 'Ss':
+while (continuar in 'Ss'):
     numeros = str(input('Digite algum número: '))
     
-    while numeros.isnumeric() == False:
+    while (numeros.isnumeric() == False):
         print('\033[0;31mERROR: Digite um valor númerico.\033[0m')
         numeros = str(input('Digite algum número: '))
 
@@ -28,7 +28,7 @@ while continuar in 'Ss':
 
     continuar = str(input('Continuar?[S/N] '))
     
-    while continuar not in 'sSnN':
+    while (continuar not in 'sSnN'):
          print('\033[0;31mERROR: Digite uma opção válida.\033[0m')
          continuar = str(input('Continuar?[S/N] '))
         
